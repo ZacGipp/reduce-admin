@@ -1,0 +1,16 @@
+/**
+ * Created by Zed on 2019/7/29.
+ */
+{
+  "presets": [
+    ["@babel/preset-env", { "useBuiltIns": "usage" }],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "react-hot-loader/babel",
+    ["@babel/plugin-proposal-decorators", { "legacy": true}],
+    "@babel/plugin-proposal-class-properties",
+    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+  ]
+}

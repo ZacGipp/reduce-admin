@@ -1,0 +1,21 @@
+
+.table_searchContainer {
+  &:after {
+    content: " ";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+  }
+}
+
+.table_searchItem {
+  //width: 6rem;
+  margin: 0;
+  float: left;
+  margin-right: .5rem !important;
+}
+
+[data-show="false"] {
+  display: none!important;
+}
