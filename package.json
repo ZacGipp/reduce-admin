@@ -68,7 +68,7 @@
     "core-js": "2.6.9",
     "history": "4.9.0",
     "js-cookie": "2.2.1",
-    "lodash": "4.17.15",
+    "lodash": "4.17.19",
     "md5": "2.2.1",
     "moment": "2.24.0",
     "prop-types": "15.7.2",
